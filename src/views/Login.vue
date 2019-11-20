@@ -17,7 +17,7 @@
 
                   <div class="login-image-column">
                       <div class="image-holder">
-                          <img src="./../assets/logo.svg" alt="">
+                          <img src="./../assets/logo.png" alt="">
                       </div>
                   </div>
            </div>

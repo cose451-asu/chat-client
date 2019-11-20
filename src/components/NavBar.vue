@@ -2,7 +2,7 @@
 <div>
     <nav>
         <div class="nav-left-section">
-            <img class="logo" src="../assets/logo.svg">
+            <img class="logo" src="../assets/logo.png">
             <span id="title">Chat</span>
         </div>
         <div class="nav-right-section">
