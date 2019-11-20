@@ -1,0 +1,31 @@
+{
+  "name": "asu-chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "proto": "cd chat-service && protoc -I=. auth.proto chatroom.proto user.proto entities.proto --js_out=import_style=commonjs:. --grpc-web_out=import_style=commonjs,mode=grpcwebtext:.",
+    "protofix": "./proto_fix.sh"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^0.6.12",
+    "@grpc/proto-loader": "^0.5.3",
+    "core-js": "^2.6.5",
+    "google-protobuf": "^3.10.0",
+    "grpc": "^1.24.2",
+    "grpc-web": "^1.0.7",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
