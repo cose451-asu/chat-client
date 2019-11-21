@@ -36,11 +36,10 @@ To run the demo follow these steps:
 #Should be the destination url+port
 VUE_APP_URL=https://localhost:9001
 ```
-Replace `VUE_APP_URL`, with your proper server destination
-
-8. Run `npm run proto` 
-9. (Optional) due to the issues belong `grpc-web`'s convention. It is recommended to disable the lint options in *.proto files. Run `npm run protofix` to execute `proto_fix.sh`. 
-10. Run `npm run serve` to start the application and navigate to `http://localhost:8080` to view the app
+8. Replace `VUE_APP_URL`, with your proper server destination
+9. Run `npm run proto` 
+10. (Optional) due to the issues belong `grpc-web`'s convention. It is recommended to disable the lint options in *.proto files. Run `npm run protofix` to execute `proto_fix.sh`. 
+11. Run `npm run serve` to start the application and navigate to `http://localhost:8080` to view the app
 
 ## TODO
 - [ ] TBD
