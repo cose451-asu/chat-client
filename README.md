@@ -1,6 +1,6 @@
 # COSE451-ASU chat client
 
-This application aims the modern chat application using Vue.js and gRPC.
+This application aims the modern chat application using Vue.js and gRPC.  
 Here's a screenshot below:
 
 <img src="screenshots/screenshot_1.png">
@@ -23,7 +23,7 @@ This app uses:
 ## Running the demo
 To run the demo follow these steps:
 
-> First of all, install and configure `chat-server`!
+> First of all, install and configure [`chat-server`](https://github.com/cose451-asu/chat-server)
 1. Get TLS keys from [chat_server](https://github.com/cose451-asu/chat-server)
 2. Follow the instruction to support TLS keys
 3. [Install Envoy](https://www.envoyproxy.io/) for frontend proxy(See https://github.com/grpc/grpc-web/issues/522) 
